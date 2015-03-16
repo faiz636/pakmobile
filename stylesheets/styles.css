@@ -1,0 +1,321 @@
+body {
+    opacity: 0.9;
+    margin: auto;
+    min-width: 1250px;
+    max-width: 1600px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-sol {
+    overflow: auto;
+    width: 100%;
+}
+
+.width-margin {
+    width: 98% !important;
+    margin: 5px auto 5px auto;
+}
+
+
+
+/* =========== top ===========*/
+
+.top {
+    background-color: rgb(11,64,130);/*new color*/
+    padding: 5px 0 5px 0;
+    color: white;
+    font-size: 12px;
+}
+/* =========== top_bar1 ===========*/
+.top_bar1 {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.top_bar_li {
+    display: inline-block;
+    padding: 0 5px 0 5px;
+}
+
+.top_bar_li a{
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.top_bar_li_border {
+    border-left: 2px solid white;
+}
+/* =========== top_bar2 ===========*/
+.top_bar2 {
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.top_bar2_li{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.top_bar2_li a{
+    /*margin-top: 10px;*/
+    padding: 15px 4px 17px 0;
+    font-size: 20px;
+}
+
+
+/* =========== header ===========*/
+
+header {
+    background-color: rgb(0,103,129);
+}
+
+.header-ul {
+    list-style-type: none;
+    margin: 55px 20px 0 0;
+}
+
+#pak-mobile-logo {
+    margin: 10px;
+    width: 250px;
+}
+
+#pak-mobile-cell{
+    margin-left: 50px;
+    /*margin: 10px;*/
+    width: 50px ;
+}
+/*===========fixed navigation effect=============*/
+.navigation_top_bar{
+    top: 0;
+    height: 50px;
+}
+
+.navigation_header{
+    /*position: fixed;*/
+    top: 106px;
+    width: 100%;
+}
+
+.navigation_nav_bar{
+    top: 49px;
+    min-height: 100px;
+}
+
+.navigation {
+    /*position: fixed;*/
+    /*top: 0;*/
+    width: 100%;
+    /*color: #ffffff;*/
+    /*height: 100px;*/
+    /*padding-top: 15px;*/
+}
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: rgb(128,128,128)
+}
+
+
+/* =========== nav ===========*/
+
+nav {
+    background-color: rgb(17,112,178);
+    padding: 5px 0 5px 0;
+    color: white;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    max-width: 1000px; /*this width here made the top_bar2 to be aligned just after the Pak-mobile-logo*/
+    /*text-align: center;*/
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+/* =========== banner ===========*/
+
+.banner {
+    width: 74%;
+    height: 350px;
+    border: 1px solid antiquewhite;
+    border-radius: 30px;
+    background-color: black;
+}
+
+/* =========== main-body ===========*/
+
+.main-body {
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1200px;
+}
+
+/* =========== aside ===========*/
+
+aside {
+    border: 1px solid antiquewhite;
+    border-radius: 30px;
+    background-color: rgb(0,103,129);
+    min-height: 700px;
+    text-align: center;
+    width: 25%;
+    /*margin-top: 106px;*/
+    display: inline-block;
+}
+
+aside ul li{
+    /*margin-left: 50px;*/
+    padding-bottom: 20px;
+}
+
+.aside_heading{
+    color: #ffffff;
+    font-size: 30px;
+    border: 5px outset seagreen;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+input{
+    background-color: cadetblue;
+    border: 5px outset rgb(17,112,178);
+    border-radius: 20px;
+}
+
+.submit{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px 50px 10px 10px;
+    background-color: rgb(17,112,178);
+    border-radius: 10px;
+}
+
+/* =========== content ===========*/
+
+div.content {
+
+    padding: 10px 0;
+    min-height: 500px;
+    width: 73%;
+    display: inline-block;
+    margin-left: 1%;
+}
+
+/* =========== article ===========*/
+
+article{
+    background-color: rgb(15,88,139);
+}
+
+.alternate{
+    background-color: rgb(69,158,212);
+}
+
+article a {
+    text-decoration: none;
+    color: snow;
+}
+
+article {
+    text-align: center;
+    float: left;
+    width: 32%;
+    margin: 5px 0 5px .8%;
+    color: white;
+    border: 1px solid antiquewhite;
+    padding: 10px 0;
+    border-radius: 8px;
+    /*opacity: .6;*/
+}
+
+article img {
+    width: 60px;
+    height: 100px;
+}
+
+.price, .view_details, .item_name {
+    margin: 0 auto 0 auto;
+    padding: 3px;
+}
+
+.price {}
+
+.view_details {
+    background-color: rgb(17,112,178);
+    margin-bottom: 0;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.view_details:hover{
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+h3.head {
+    color: #ffffff;
+    text-align: center;
+    margin: 10px 20px;
+    border: 5px outset seagreen;
+    border-radius: 20px;
+    background-color: rgb(0,103,129);
+    padding: 10px;
+}
+
+/* =========== footer ===========*/
+
+footer {
+    background-color: rgb(11,64,130);/*new color*/
+    /*height: 150px;*/
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul{
+    display: inline-block;
+    /*min-width: 15%;*/
+    margin-right: 5%;
+    margin-left: 5%;
+    list-style-type: none;
+}
+
+#first{}
+
+footer ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a img{
+    width: 30px;
+    height: 30px;
+}
+
+
+

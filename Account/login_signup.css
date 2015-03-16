@@ -1,0 +1,58 @@
+/*============content================*/
+
+div.content{
+    width: 100%;
+    min-height: 800px;
+}
+
+#login_div{
+    border-right: 1px solid #18508f;
+    width: 45%;
+    height: 800px;
+    margin: 50px 0 50px 50px;
+}
+
+#signup_div{
+    width: 46%;
+    height: 800px;
+    margin: 50px 50px 50px 0;
+}
+
+fieldset{
+    margin: 50px;
+    border:5px ridge #18508f;
+}
+
+select{
+    border: 5px outset rgb(17,112,178);
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+legend{
+    font-size: 24px;
+}
+
+
+input, label{
+    margin-left: 50px;
+}
+
+input{
+    background-color: cadetblue;
+    border: 5px outset rgb(17,112,178);
+    border-radius: 20px;
+}
+
+.submit{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px 50px 10px 10px;
+    background-color: rgb(17,112,178);
+    border-radius: 10px;
+}
+
+.submit:hover{
+    background-color: rgb(69,158,212);
+}

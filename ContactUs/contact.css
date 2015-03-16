@@ -1,0 +1,31 @@
+/*==============content============*/
+
+div.content{
+    min-height: 800px;
+}
+
+.subhead{
+    text-shadow: 5px 5px 3px #000;
+    color: #ffffff;
+}
+
+.contact_details{
+    margin: 50px;
+}
+
+textarea{
+    background-color: cadetblue;
+    border: 10px outset rgb(17,112,178);
+    border-radius: 20px;
+}
+
+.submit{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(17,112,178);
+    border-radius: 10px;
+}
+
+.submit:hover{background-color: rgb(69,158,212)}

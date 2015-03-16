@@ -1,0 +1,131 @@
+/*============= Navigation bar Drop_down menu=============*/
+nav ul {
+text-align: center;
+/*display: inline;*/
+margin: 0;
+padding: 15px 4px 17px 0;
+/*list-style: none;*/
+/*-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
+/*-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
+/*box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
+}
+
+nav ul li {
+/*font: bold 12px/18px sans-serif;*/
+/*display: inline-block;*/
+/*margin-right: -4px;*/
+margin-top: 10px;
+position: relative;
+/*padding: 15px 20px;*/
+/*background: #000;*/
+cursor: pointer;
+-webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+transition: all 0.2s;
+}
+
+nav ul li:hover {
+    background: rgb(11,64,130);
+    color: #fff;
+}
+
+nav ul li .drop_list {
+    padding: 0;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 150px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transiton: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -transition: opacity 0.2s;
+}
+nav ul li .drop_list li {
+    background: rgb(11,64,130);
+    display: block;
+    color: #fff;
+    margin-top: 0;
+    /*text-shadow: 0 -1px 0 #000;*/
+}
+nav ul li .drop_list li:hover { background: rgb(15,88,139); }
+nav ul li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+/*============= Aside Drop_down menu=============*/
+aside ul{
+    list-style-type: none;
+    text-align: left;
+    color: #ffffff;
+    font-size: 28px;
+    /*margin: 10px 0 10px 0;*/
+    margin-right: 50px;
+}
+
+aside ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+
+aside ul li {
+    text-align: center;
+    /*font: bold 12px/18px sans-serif;*/
+    /*display: inline-block;*/
+    /*margin-right: -4px;*/
+    /*position: relative;*/
+    /*padding: 0 10px 0 10px;*/
+    /*background: #fff;*/
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+aside ul li:hover {
+    padding: 10px 0 10px 0;
+    background: rgb(24, 127, 130);
+    color: #fff;
+
+}
+
+aside ul li .drop_list {
+    text-align: center;
+    margin-left: 50px;
+    /*padding: 0;*/
+    position: absolute;
+    /*top: 48px;*/
+    /*left: 0;*/
+    width: 200px;
+    /*-webkit-box-shadow: none;*/
+    /*-moz-box-shadow: none;*/
+    box-shadow: none;
+    display: none;
+    /*opacity: 0;*/
+    visibility: hidden;
+    -webkit-transiton: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -transition: opacity 0.2s;
+}
+aside ul li .drop_list li {
+    background: rgb(24, 127, 130);
+    display: block;
+    color: #fff;
+    padding: 10px 0 10px 0;
+    /*text-shadow: 0 -1px 0 #000;*/
+}
+aside ul li .drop_list li:hover { background: rgb(15,88,139);
+}
+
+aside ul li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}

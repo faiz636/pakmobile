@@ -1,0 +1,25 @@
+/* =========== content ===========*/
+
+h3.head {
+}
+
+div.content {
+    min-height: 2000px;
+}
+
+.subhead{
+    text-shadow: 5px 5px 3px #000;
+    color: #ffffff;
+    margin: 50px;
+}
+
+.descrip{
+    margin: 50px;
+    padding: 5px;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #18508f;
+
+}
